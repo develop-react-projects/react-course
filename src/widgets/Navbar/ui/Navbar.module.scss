@@ -1,0 +1,26 @@
+.Navbar {
+  background-color: var(--inverted-bg-color);
+  height: var(--navbar-height);
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--inverted-primary-color);
+
+  &__links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__link {
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+
+  &__theme {
+    color: var(--inverted-primary-color);
+  }
+}

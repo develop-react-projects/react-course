@@ -1,0 +1,17 @@
+.Button {
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 0;
+}
+
+.clear {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+.outline {
+  border: 1px solid var(--primary-color);
+  padding: 5px 10px;
+}

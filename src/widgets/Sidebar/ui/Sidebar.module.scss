@@ -1,0 +1,17 @@
+.Sidebar {
+  width: var(--sidebar-width);
+  padding: 20px;
+  background-color: var(--inverted-bg-color);
+  color: var(--inverted-primary-color);
+  height: calc(100vh - var(--navbar-height));
+  transition: width 0.1s linear;
+
+  &__toggler {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
+
+.collapsed {
+  width: var(--sidebar-collapsed-width);
+}
